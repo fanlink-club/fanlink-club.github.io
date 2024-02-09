@@ -1,0 +1,29 @@
+[
+  {
+    "title": "Feature #1",
+    "description": "New clients receive an obligation free consultation.",
+    "image": {
+      "url": "images/features/noun_branding_1885335.svg",
+      "width": 80,
+      "height": 80
+    }
+  },
+  {
+    "title": "Feature #2",
+    "description": "All members of our team are certified accountants.",
+    "image": {
+      "url": "images/features/noun_The Process_1885341.svg",
+      "width": 80,
+      "height": 80
+    }
+  },
+  {
+    "title": "Feature #3",
+    "description": "We stay up to date on the latest changes to the tax code.",
+    "image": {
+      "url": "images/features/noun_3d modeling_1885342.svg",
+      "width": 80,
+      "height": 80
+    }
+  }
+]
