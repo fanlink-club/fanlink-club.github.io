@@ -1,7 +1,8 @@
-@import url('https://fonts.googleapis.com/css2?family=Atkinson+Hyperlegible:ital,wght@0,400;0,700;1,400;1,700');
+@import url('https://fonts.googleapis.com/css2?family=Atkinson+Hyperlegible:ital,wght@0,400;0,700;1,400;1,700&family=Source+Serif+4:opsz,wght@8..60,700&display=swap');
 
 .App {
   font-family: "Atkinson Hyperlegible", sans-serif; 
+  color: #00274D;
   background-color: #FCF5ED;
   padding-bottom: 120px;
 }
@@ -53,7 +54,6 @@ h1 {
 
 #banner {
   background-color: #79D4D4;
-  color: #00274D;
   font-size: 20pt; 
   font-weight: 700;
   text-align: center;
@@ -128,11 +128,12 @@ h1 {
 }
 
 details > summary {
+  font-family: "Source Serif 4", serif;
   list-style: none;
   cursor: pointer;
   font-weight: 700;
   font-size: 20pt;
-  margin-bottom: 12px;
+  margin-bottom: 6px;
 }
 
 .club-card {
