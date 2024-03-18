@@ -1,5 +1,5 @@
 import '../App.css';
-export default function Navbar() {
+export default function TaglineAbout() {
     return (
 		<div>
           <h1> TAGLINE HERE</h1>

@@ -1,27 +1,22 @@
-import Navbar from './components/navbar';
-import Banner from './components/banner';
-import Hero from './components/hero';
-import About from './components/about';
-import FAQ from './components/faq';
-import Explore from './components/explore';
+import { Routes, Route } from 'react-router-dom';
+import Home from './pages/Home';
+import About from './pages/About';
+import Courses from './pages/Courses';
 import './App.css';
 
-function App() {
+const App = () => {
   return (
-    <div className="App">
-      <header>
-        <Navbar></Navbar>
-        <Banner></Banner>
-        <Hero></Hero>
-      </header>
-      
-      <body className="homepage">
-        <About></About>
-        <FAQ></FAQ>
-        <Explore></Explore>
-      </body>
-    </div>
+     <>
+        <Routes>
+           <Route path="/" element={<Home />} />
+           <Route path="/about" element={<About />} />
+           <Route path="/courses" element={<Courses />} />
+           {/* <Route path="/products" element={<Products />} /> */}
+           {/* <Route path="/about" element={<About />} /> */}
+        </Routes>
+     </>
   );
-}
+ };
+ 
 
 export default App;
